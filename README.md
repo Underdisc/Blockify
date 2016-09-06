@@ -8,7 +8,7 @@ gcc src/main.c src/block_text.c src/options.c -o blockify
 
 All current documentation can be found in documentation/html/index.html
 
-Given a null terminated string, the blockify program will generate the text in the form of a block. If desired, an option to add a diagonal through the block is possible as well. If no text is provided, the blockify program will use "SAMPLETEXT" as the null terminated string.
+Given a null terminated string, the blockify program will generate the text in the form of a block. If desired, an option to add a diagonal through the block is possible as well. If no text is provided, the blockify program will use "SAMPLETEXT" as the null terminated string. *Quick Disclaimer: A friend of mine made this same program using a web based language and told me to make it in C, so I did.*
 
 ##### Options
 - --diagonal or -d: Add a diagonal to the block
